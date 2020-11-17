@@ -26,3 +26,15 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+tr:nth-child(odd) {
+    background-color: rgba(103, 212, 176, 0.619);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(95, 158, 160, 0.817);
+}
+
+th:nth-child(n) {
+    background-color: rgb(2, 92, 92);
+}
