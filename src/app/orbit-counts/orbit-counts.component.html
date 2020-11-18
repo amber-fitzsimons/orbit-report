@@ -1,1 +1,17 @@
-<p>orbit-counts works!</p>
+<!-- <p>orbit-counts works!</p> -->
+
+<h3>Satellite Counts:</h3>
+<div class="counts">
+   <div>Total: <span>{{satellites.length}}</span></div>
+
+   <div *ngFor = "let type of satelliteTypes">{{type}}: <span>{{getCountForType(type)}}</span></div>
+   
+   <!-- Commented out copy/paste from assignment to make bonus mission work. -->
+
+   <!-- <div>Space Debris: <span>1</span></div>
+   <div>Communication: <span>2</span></div>
+   <div>Probe: <span>2</span></div>
+   <div>Positioning: <span>1</span></div>
+   <div>Space Station: <span>2</span></div>
+   <div>Telescope: <span>1</span></div>
+</div> -->
